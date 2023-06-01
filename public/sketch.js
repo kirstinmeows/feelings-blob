@@ -8,6 +8,7 @@ function setup () {
 function  draw () 
 {
    background (`turquoise`)
+   noStroke();
    fill(`yellow`)
-   square(100,100,500)
+   square(100,100,500);
 }
