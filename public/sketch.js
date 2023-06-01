@@ -5,8 +5,9 @@ function setup () {
    createCanvas (innerWidth, innerHeight)
 }
 
-function  draw () {
+function  draw () 
+{
    background (`turquoise`)
-   fill("Yellow")
-   square(100,100,50)
+   fill(`yellow`)
+   square(100,100,500)
 }
