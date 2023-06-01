@@ -7,4 +7,6 @@ function setup () {
 
 function  draw () {
    background (`turquoise`)
+   fill("Yellow")
+   square(100,100,50)
 }
