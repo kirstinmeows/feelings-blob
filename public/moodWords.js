@@ -1,6 +1,5 @@
-document.body.style.margin = "0px"
-document.body.style.overflow = "hidden"
-document.body.style.padding = "0px"
+document.body.style.margin = 0
+document.body.style.overflow = `hidden`
 
 let moods = ['cloud nine', 'tranquil','rage']
 function setup() 
@@ -10,7 +9,7 @@ function setup()
 
 function draw() 
 {
-  background(20); 
+  background(15); 
   text (moods[index],innerWidth/2, innerHeight/2)
   
   const p = frameCount % 180;
@@ -26,6 +25,8 @@ function draw()
 
   
 } 
+
+// change mood function to be added
 
 
 
