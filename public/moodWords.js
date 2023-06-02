@@ -4,7 +4,7 @@ document.body.style.overflow = `hidden`
 let moods = ['cloud nine', 'tranquil','rage']
 function setup() 
 {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth+100, windowHeight+100);
 }
 
 function draw() 
