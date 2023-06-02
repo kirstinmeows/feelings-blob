@@ -6,7 +6,7 @@ let index = 0;
 function setup() 
 {
   createCanvas(innerWidth, innerHeight);
-  textSize(100);
+  textSize(500);
 }
 
 function draw() 
@@ -15,16 +15,16 @@ function draw()
   fill(255,20,147);
   text('hi',500, 500);
   
-  const p = frameCount % 180;
-  if (p == 0)
-  {
-    index++;
+  // const p = frameCount % 180;
+  // if (p == 0)
+  // {
+  //   index++;
   
-    if (index > moods.length-1)
-    {
-      index = 0;
-    }
-  }
+  //   if (index > moods.length-1)
+  //   {
+  //     index = 0;
+  //   }
+  // }
 
   
 } 
