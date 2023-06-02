@@ -1,5 +1,5 @@
-document.body.style.margin = 0
-document.body.style.overflow = `visible`
+document.canvas.style.margin = 0
+document.canvas.style.overflow = `hidden`
 
 let moods = ['cloud nine', 'tranquil','rage']
 function setup() 
