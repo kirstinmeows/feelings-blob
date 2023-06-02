@@ -1,5 +1,6 @@
 document.body.style.margin = 0
 document.body.style.overflow = `hidden`
+document.body.style.padding = 0
 
 let moods = ['cloud nine', 'tranquil','rage']
 function setup() 
