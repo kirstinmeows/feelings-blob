@@ -13,7 +13,7 @@ function draw()
 {
   background(15); 
   fill(255,20,147);
-  text (moods[index],innerWidth/2, innerHeight/2)
+  text ('hi',innerWidth/2, innerHeight/2)
   
   const p = frameCount % 180;
   if (p == 0)
