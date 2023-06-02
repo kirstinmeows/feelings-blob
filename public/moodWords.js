@@ -12,7 +12,6 @@ function setup()
 {
   createCanvas(innerWidth, innerHeight);
   textFont(openSans);
-  textAlign(CENTER,CENTER);
   textSize(100);
 }
 
@@ -46,7 +45,8 @@ function changeMood()
 //MUST FIX 
 function checkMood()
 {
-  let myScript = document.getElementById("myScript"); 
+  let myScript = document.getElementById('myScript'); 
+  let  blobScript = document.CreateElement('myScript');
   switch(moods)
    {
       case 0: 
@@ -59,5 +59,6 @@ function checkMood()
         myScript.setAttribute("src","/blobs/rageBlob.js"); 
       break;
    }
+   ref.parentNode.insertBefore(blobScript, myScript);
    console.log (myScript.src)
 }
