@@ -1,12 +1,12 @@
 document.body.style.margin = 0
-document.body.style.overflow = `visible`
+document.body.style.overflow = `hidden`
 
 let moods = ["cloud nine", "tranquil","rage"]
 let index = 0;
 
 function preload()
 {
-  openSans = loadFont('fonts/openSans.ttf');
+  openSans = loadFont('/fonts/openSans.ttf');
 }
 function setup() 
 {
