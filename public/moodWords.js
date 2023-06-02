@@ -6,7 +6,6 @@ function setup()
 
 function draw() 
 {
-  
   background(20); 
   text (moods[index],windowWidth/2, windowHeight/2)
   
@@ -15,7 +14,6 @@ function draw()
   {
     changeWord;
   }
-
 } 
 
 function changeWord()
@@ -34,8 +32,10 @@ function checkMood()
   switch (moods)
    {
       case 0: 
+        myScript.setAttribute("src","/blobs/utopiaBlob.js")
       break; 
       case 1: 
       break;
    }
+   console.log (myScript.src)
 }
