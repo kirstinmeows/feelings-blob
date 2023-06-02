@@ -12,19 +12,16 @@ function draw()
   const p = frameCount % 180;
   if (p == 0)
   {
-    changeWord;
+    index++;
+  
+    if (index > moods.length-1)
+    {
+        index = 0;
+    }
   }
 } 
 
-function changeWord()
-{
-  index++;
-  
-  if (index > moods.length-1)
-  {
-    index = 0;
-  }
-}
+
 
 function checkMood()
 {
