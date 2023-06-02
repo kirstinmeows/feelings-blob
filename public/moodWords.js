@@ -2,10 +2,18 @@ document.body.style.margin = 0
 document.body.style.overflow = `hidden`
 
 let moods = ["cloud nine", "tranquil","rage"]
+let openSans;
 let index = 0;
+
+function preload()
+{
+  openSans = loadFont('fonts/openSans.ttf');
+}
 function setup() 
 {
   createCanvas(innerWidth, innerHeight);
+  textFont(openSans);
+  textAlign(CENTER,CENTER);
   textSize(500);
 }
 
@@ -13,7 +21,7 @@ function draw()
 {
   background(15); 
   fill(255,20,147);
-  text('hi',500, 500);
+  text('hi', 500,500);
   
   // const p = frameCount % 180;
   // if (p == 0)
