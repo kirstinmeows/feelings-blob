@@ -4,13 +4,13 @@ document.body.style.overflow = `hidden`
 let moods = ['cloud nine', 'tranquil','rage']
 function setup() 
 {
-  createCanvas(windowWidth+100, windowHeight+100);
+  createCanvas(innerWidth, innerHeight);
 }
 
 function draw() 
 {
   background(20); 
-  text (moods[index],windowWidth/2, windowHeight/2)
+  text (moods[index],innerWidth/2, innerHeight/2)
   
   const p = frameCount % 180;
   if (p == 0)
