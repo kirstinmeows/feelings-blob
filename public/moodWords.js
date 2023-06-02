@@ -1,4 +1,4 @@
-let moods = []
+let moods = ['cloud nine', 'tranquil',]
 function setup() 
 {
   createCanvas(windowWidth, windowHeight);
@@ -10,7 +10,7 @@ function draw()
   background(20); 
   text (moods[index],windowWidth/2, windowHeight/2)
   
-  const p = frameCount % 120;
+  const p = frameCount % 180;
   if (p == 0)
   {
     changeWord;
