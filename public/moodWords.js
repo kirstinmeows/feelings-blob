@@ -6,14 +6,14 @@ let index = 0;
 function setup() 
 {
   createCanvas(innerWidth, innerHeight);
-  textSize(50);
+  textSize(100);
 }
 
 function draw() 
 {
   background(15); 
   fill(255,20,147);
-  text ('hi',innerWidth/2, innerHeight/2)
+  text('hi',500, 500);
   
   const p = frameCount % 180;
   if (p == 0)
