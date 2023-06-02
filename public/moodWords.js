@@ -22,6 +22,8 @@ function draw()
       index = 0;
     }
   }
+
+  
 } 
 
 
