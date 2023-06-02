@@ -2,15 +2,17 @@ document.body.style.margin = 0
 document.body.style.overflow = `hidden`
 
 let moods = ['cloud nine', 'tranquil','rage']
+let index = 0;
 function setup() 
 {
   createCanvas(innerWidth, innerHeight);
+  textSize(50);
 }
 
 function draw() 
 {
   background(15); 
-  text (moods[index],innerWidth/2, innerHeight/2)
+  text ('moods[index]',innerWidth/2, innerHeight/2)
   
   const p = frameCount % 180;
   if (p == 0)
@@ -27,13 +29,17 @@ function draw()
 } 
 
 // change mood function to be added
+function changeMood()
+{
+
+}
 
 
-
+//MUST FIX 
 function checkMood()
 {
   let myScript = document.getElementById("myScript"); 
-  switch (moods)
+  switch(moods)
    {
       case 0: 
         myScript.setAttribute("src","/blobs/utopiaBlob.js");
