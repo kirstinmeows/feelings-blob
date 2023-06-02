@@ -1,5 +1,5 @@
 document.body.style.margin = 0
-document.body.style.overflow = `hidden`
+document.body.style.overflow = `visible`
 
 let moods = ["cloud nine", "tranquil","rage"]
 let index = 0;
