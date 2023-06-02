@@ -2,7 +2,6 @@ document.body.style.margin = 0
 document.body.style.overflow = `hidden`
 
 let moods = ["cloud nine", "tranquil","rage"]
-let openSans;
 let index = 0;
 
 function preload()
@@ -14,7 +13,7 @@ function setup()
   createCanvas(innerWidth, innerHeight);
   textFont(openSans);
   textAlign(CENTER,CENTER);
-  textSize(500);
+  textSize(100);
 }
 
 function draw() 
