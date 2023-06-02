@@ -27,3 +27,15 @@ function changeWord()
     index = 0;
   }
 }
+
+function checkMood()
+{
+  let myScript = document.getElementById("myScript"); 
+  switch (moods)
+   {
+      case 0: 
+      break; 
+      case 1: 
+      break;
+   }
+}
