@@ -1,4 +1,4 @@
-let moods = ['cloud nine', 'tranquil',]
+let moods = ['cloud nine', 'tranquil','rage']
 function setup() 
 {
   createCanvas(windowWidth, windowHeight);
@@ -16,7 +16,7 @@ function draw()
   
     if (index > moods.length-1)
     {
-        index = 0;
+      index = 0;
     }
   }
 } 
@@ -29,9 +29,13 @@ function checkMood()
   switch (moods)
    {
       case 0: 
-        myScript.setAttribute("src","/blobs/utopiaBlob.js")
+        myScript.setAttribute("src","/blobs/utopiaBlob.js");
       break; 
       case 1: 
+        myScript.setAttribute("src","/blobs/meditateBlob.js");
+      break;
+      case 2: 
+        myScript.setAttribute("src","/blobs/rageBlob.js"); 
       break;
    }
    console.log (myScript.src)
