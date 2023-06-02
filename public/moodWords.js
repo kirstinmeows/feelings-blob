@@ -1,7 +1,7 @@
 document.body.style.margin = 0
 document.body.style.overflow = `hidden`
 
-let moods = ['cloud nine', 'tranquil','rage']
+let moods = ["cloud nine", "tranquil","rage"]
 let index = 0;
 function setup() 
 {
@@ -12,7 +12,8 @@ function setup()
 function draw() 
 {
   background(15); 
-  text ('moods[index]',innerWidth/2, innerHeight/2)
+  fill(255,20,147);
+  text (moods[index],innerWidth/2, innerHeight/2)
   
   const p = frameCount % 180;
   if (p == 0)
