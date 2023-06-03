@@ -2,9 +2,6 @@ let vertices_amount = 70;
 let yoff = 0.0;
 let gSpeed = 1000;
 
-let bGcolour; 
-let blobcolour; 
-
 let startColour; 
 let endColour;
 
@@ -18,7 +15,7 @@ function setup() {
 function draw() {
 
   background(249, 227, 255);
-//background(bGcolour());
+
   startColour = color(229, 186, 247, 60);
   endColour = color(185, 235, 217,60);
   
@@ -29,7 +26,7 @@ function draw() {
   const lerp_col = lerpColor (endColour, startColour, sig)
   fill (lerp_col)
   
-//fill(blobcolour());
+
   blobShape();
 
 }
