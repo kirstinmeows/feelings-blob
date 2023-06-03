@@ -12,16 +12,15 @@ let endColour;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  colorMode(HSB);
 
 }
 
 function draw() {
 
-  background(299, 13, 100);
+  background(249, 227, 255);
 //background(bGcolour());
-  startColour = color(282, 23, 100, 0.4);
-  endColour = color(193, 23, 100, 0.4);
+  startColour = color(229, 186, 247, 60);
+  endColour = color(185, 235, 217,60);
   
   noStroke(); 
   const p = frameCount /gSpeed % 1
